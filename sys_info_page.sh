@@ -6,14 +6,17 @@ CURRENT_TIME=$(date +"%x %r %Z")
 TIME_STAMP="Generates $CURRENT_TIME, by $USER"
 
 report_uptime(){
+    echo "Function report_uptime executed"
     return
 }
 
 report_disk_space(){
+    echo "Function report_disk_space executed"
     return
 }
 
 report_home_space(){
+    echo "Function report_home_space executed"
     return
 }
 
